@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <ImageView
+      android:id="@+id/pc"
+      android:layout_width="match_parent"
+      android:layout_height="225dp"
+      android:layout_marginHorizontal="15dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:visibility="visible"
+      android:src="@drawable/sa"
+      />
+
+  <WebView
+      android:id="@+id/webview"
+      android:layout_width="match_parent"
+      android:layout_height="225dp"
+      android:layout_marginHorizontal="15dp"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="5dp"
+      android:visibility="gone"
+      />
+
+  <Button
+      android:id="@+id/play"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Play"
+      android:textSize="30sp"
+    />
+  <Button
+      android:id="@+id/play2"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Play2"
+      android:textSize="30sp"
+      />
+  <Button
+      android:id="@+id/play3"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Play3"
+      android:textSize="30sp"
+      />
+  <Button
+      android:id="@+id/play4"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Play4"
+      android:textSize="30sp"
+      />
+  <Button
+      android:id="@+id/play5"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Play5"
+      android:textSize="30sp"
+      />
+</LinearLayout>
